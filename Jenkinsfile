@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    agent {label 'agentnikhil'}
     
     stages{
         stage("Clone Code"){
@@ -11,7 +11,7 @@ pipeline {
         stage("Build"){
             steps {
                 echo "Building the image"
-                sh "docker build -t my-note-app ."
+                sh "docker build -t notes-app:latest ."
             }
         }
         stage("Push to Docker Hub"){
