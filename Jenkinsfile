@@ -2,7 +2,7 @@ pipeline {
     agent { label 'nikhil' }
 
     environment {
-        IMAGE_NAME = 'my-note-app'
+        IMAGE_NAME = 'notes-app:latest'
     }
 
     stages {
