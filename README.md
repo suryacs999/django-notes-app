@@ -166,16 +166,10 @@ Now every `git push` to `main` starts a Jenkins build automatically.
 ### 2. Jenkins Console Output
 ![Jenkins Console Output](screenshots/jenkins-console-output.png)
 
-### 3. Docker Hub Repository
-![Docker Hub](screenshots/dockerhub-repo.png)
-
-### 4. GitHub Webhook (Recent Deliveries – 200 OK)
+### 3. GitHub Webhook (Recent Deliveries – 200 OK)
 ![GitHub Webhook](screenshots/github-webhook.png)
 
-### 5. Running Containers on EC2
-![Docker PS](screenshots/docker-ps.png)
-
-### 6. Application Running in Browser
+### 4. Application Running in Browser
 ![Application](screenshots/app-running.png)
 
 ## Issues I Faced and How I Fixed Them
