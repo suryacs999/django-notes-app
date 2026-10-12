@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'agentnikhil' }
+    agent { label 'nikhil' }
 
     environment {
         IMAGE_NAME = 'my-note-app'
