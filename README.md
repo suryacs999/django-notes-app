@@ -40,7 +40,6 @@ Developer ──push──► GitHub ──webhook──► Jenkins (EC2)
                                               Notes App running on :8000
 ```
 
-*(You can replace this with an architecture diagram image: `![Architecture](screenshots/architecture.png)`)*
 
 ## Tech Stack
 
